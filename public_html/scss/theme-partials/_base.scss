@@ -7,3 +7,17 @@ body{
     font-family: $base-font;
     font-weight:$font-weight-light;
 }
+
+main{
+    padding-top: 54.6px;
+}
+@media(min-width:720px){
+    main{
+     padding-top: 57px;
+    }
+}
+@media(min-width:1200px){
+    main{
+     padding-top: 77px;
+    }
+}

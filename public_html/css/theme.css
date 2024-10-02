@@ -12544,6 +12544,22 @@ body {
   font-weight: 300;
 }
 
+main {
+  padding-top: 54.6px;
+}
+
+@media (min-width: 720px) {
+  main {
+    padding-top: 57px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    padding-top: 77px;
+  }
+}
+
 header .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -12578,6 +12594,27 @@ header .navbar-nav a {
   header .navbar-nav li {
     margin-left: 51px;
   }
+}
+
+.lead-page-section {
+  padding: 140px 0;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.lead-page-section .lead-section-content {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.lead-page-section .lead-section-content .lead-section-title {
+  font-size: 5.1rem;
+  line-height: 6.4rem;
+}
+
+.lead-page-section .lead-section-content .lead-section-description {
+  line-height: 2.5rem;
+  margin-bottom: 2.7rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
