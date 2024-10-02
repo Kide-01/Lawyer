@@ -14,3 +14,54 @@ $primary:#1A77CD;       //primarna boja
 $navbar-light-color:        $gray-900;
 $navbar-light-hover-color:  $primary;
 $navbar-light-active-color: $primary;
+
+
+/*
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+$utilities: map-merge(
+$utilities,
+(
+"width": (
+property: width,
+class: w,
+values: (
+20: 20%,
+80: 80%
+)
+)
+)
+);
+
+@import "bootstrap/scss/utilities/api";
+*/
+@import "../_functions.scss";
+@import "../_variables.scss";
+@import "../_variables-dark.scss";
+@import "../_maps.scss";
+@import "../_mixins.scss";
+ 
+ @import "../_utilities.scss";// You can include this if you need other Bootstrap utilities
+
+// Add custom width utility
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": (
+      property: width,
+      class: w,
+      values: (
+        20: 20%,
+        80: 80%,
+              )
+    )
+  )
+);
+@import "../utilities/_api.scss";
+// Import the utilities API to apply all utilities (including custom ones)
+
