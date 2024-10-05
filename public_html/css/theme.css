@@ -17426,4 +17426,38 @@ header .navbar-nav a {
   color: #1E1E1E;
 }
 
+.team-section {
+  padding: 67px 0 61px 0;
+}
+
+.team-section .team-more {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.team-section .team-member-name {
+  margin-bottom: 1.5rem;
+}
+
+.team-section .team-member-name a {
+  line-height: 2.7rem;
+  font-size: 2.2rem;
+}
+
+.team-section .team-member-info {
+  margin-bottom: 3rem;
+}
+
+.team-section .fa-linkedin-in {
+  color: #1E1E1E;
+  font-size: 3rem;
+}
+
+@media (min-width: 576px) {
+  .team-section .team-member-info {
+    margin-bottom: 10rem;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
