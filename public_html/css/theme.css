@@ -3,30 +3,6 @@ html {
   font-size: 10px;
 }
 
-/*
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/variables-dark";
-@import "bootstrap/scss/maps";
-@import "bootstrap/scss/mixins";
-@import "bootstrap/scss/utilities";
-
-$utilities: map-merge(
-$utilities,
-(
-"width": (
-property: width,
-class: w,
-values: (
-20: 20%,
-80: 80%
-)
-)
-)
-);
-
-@import "bootstrap/scss/utilities/api";
-*/
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -17458,6 +17434,22 @@ header .navbar-nav a {
   .team-section .team-member-info {
     margin-bottom: 10rem;
   }
+}
+
+.info-section {
+  background-color: #11284B;
+  padding: 75px 0 69px;
+}
+
+.info-section p, .info-section a {
+  color: #586C88;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.info-section p span, .info-section a span {
+  margin-right: 12px;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
