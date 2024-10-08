@@ -20,22 +20,22 @@ $navbar-light-active-color: $primary;
 @import "../_variables-dark.scss";
 @import "../_maps.scss";
 @import "../_mixins.scss";
- 
+
 @import "../_utilities.scss";// You can include this if you need other Bootstrap utilities
 
 // Add custom width utility
 $utilities: map-merge(
-  $utilities,
-  (
-    "width": (
-      property: width,
-      class: w,
-      values: (
-        20: 20%,
-        80: 80%,
-              )
-    )
-  )
+$utilities,
+(
+"width": (
+property: width,
+class: w,
+values: (
+20: 20%,
+80: 80%,
+)
+)
+)
 );
 @import "../utilities/_api.scss";
 // Import the utilities API to apply all utilities (including custom ones)
@@ -43,3 +43,22 @@ $utilities: map-merge(
 $light:#F6F5F6;
 
 $dark-blue:#11284B;
+
+$grid-breakpoints: (
+xs: 0,
+xm: 460px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px
+) ;
+
+$container-max-widths: (
+xm: 100%,
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+xxl: 1320px
+);
